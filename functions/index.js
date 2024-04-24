@@ -8,10 +8,10 @@ const db = firestore.getFirestore();
 
 const { Configuration, OpenAIApi } = require('openai');
 
-const configuration = new Configuration({
-  organization: 'org-qFsBVi0IEWykZMwcc3NZdVz8',
-  //apiKey: "",
-});
+// const configuration = new Configuration({
+//   organization: 'org-qFsBVi0IEWykZMwcc3NZdVz8',
+//   //apiKey: "",
+// });
 const openai = new OpenAIApi(configuration);
 
 // Create new user doc in firestore
